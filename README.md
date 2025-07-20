@@ -1,7 +1,9 @@
 
-> **A ready-to-use Obsidian vault for beginners. No overwhelm, no setup fatigue.**
+## **A ready-to-use Obsidian vault for beginners. No overwhelm, no setup fatigue.**
 
 After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners via my YouTube Videos, I built this solution to solve the  most common Obsidian pain points.
+
+![obsidian-starter-kit-free](./docs/assets/images/obsidian-starter-kit-free.png)
 
 ## Download
 
