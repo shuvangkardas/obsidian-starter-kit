@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Obsidian Starter Kit - Ready-to-Use Vault for Beginners</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: #dcddde;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            padding: 20px 0;
+            position: relative;
+            z-index: 100;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #a855f7;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(45deg, #a855f7, #3b82f6);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 120px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23ffffff" stroke-width="0.5" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #a855f7, #3b82f6, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(45deg, #a855f7, #3b82f6);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(168, 85, 247, 0.4);
+        }
+
+        /* Screenshot Section */
+        .screenshot-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .screenshot-container {
+            background: #1e1e2e;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border: 1px solid #2a2a3e;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .mock-screenshot {
+            background: #181825;
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid #313244;
+            position: relative;
+            min-height: 400px;
+        }
+
+        .mock-titlebar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #313244;
+        }
+
+        .mock-dots {
+            display: flex;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .dot.red { background: #f38ba8; }
+        .dot.yellow { background: #f9e2af; }
+        .dot.green { background: #a6e3a1; }
+
+        .mock-title {
+            color: #cdd6f4;
+            font-size: 14px;
+            margin-left: 12px;
+        }
+
+        .mock-sidebar {
+            position: absolute;
+            left: 16px;
+            top: 60px;
+            width: 200px;
+            background: #11111b;
+            border-radius: 6px;
+            padding: 12px;
+            border: 1px solid #313244;
+        }
+
+        .mock-folder {
+            color: #a6adc8;
+            font-size: 13px;
+            padding: 4px 8px;
+            margin: 2px 0;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mock-folder:hover {
+            background: #1e1e2e;
+        }
+
+        .mock-graph {
+            position: absolute;
+            right: 16px;
+            top: 60px;
+            bottom: 16px;
+            left: 240px;
+            background: #0f0f17;
+            border-radius: 6px;
+            border: 1px solid #313244;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .graph-nodes {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .node {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #a855f7, #3b82f6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .node:nth-child(1) { top: 20%; left: 20%; animation-delay: 0s; }
+        .node:nth-child(2) { top: 15%; right: 25%; animation-delay: 1s; }
+        .node:nth-child(3) { bottom: 30%; left: 15%; animation-delay: 2s; }
+        .node:nth-child(4) { bottom: 25%; right: 20%; animation-delay: 0.5s; }
+        .node:nth-child(5) { top: 45%; left: 45%; animation-delay: 1.5s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Pain Points Section */
+        .pain-points {
+            padding: 80px 0;
+            background: rgba(30, 30, 46, 0.5);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 60px;
+            color: #cdd6f4;
+        }
+
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .pain-card {
+            background: rgba(24, 24, 37, 0.8);
+            border: 1px solid #313244;
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .pain-card:hover {
+            transform: translateY(-5px);
+            border-color: #a855f7;
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);
+        }
+
+        .pain-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #a855f7, #3b82f6);
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .pain-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #cdd6f4;
+            margin-bottom: 12px;
+        }
+
+        .pain-description {
+            color: #a6adc8;
+            line-height: 1.6;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #a855f7, #3b82f6);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 24px;
+        }
+
+        .feature-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #cdd6f4;
+            margin-bottom: 12px;
+        }
+
+        .feature-description {
+            color: #a6adc8;
+        }
+
+        /* Golden Rules */
+        .golden-rules {
+            padding: 80px 0;
+            background: rgba(30, 30, 46, 0.5);
+        }
+
+        .rules-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .rule-item {
+            background: rgba(24, 24, 37, 0.8);
+            border: 1px solid #313244;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .rule-item:hover {
+            border-color: #a855f7;
+            transform: translateX(10px);
+        }
+
+        .rule-number {
+            color: #a855f7;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .rule-text {
+            color: #cdd6f4;
+            margin-top: 8px;
+        }
+
+        /* CTA Section */
+        .final-cta {
+            padding: 80px 0;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(59, 130, 246, 0.1));
+        }
+
+        .cta-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #cdd6f4;
+        }
+
+        .cta-subtitle {
+            font-size: 1.2rem;
+            color: #a6adc8;
+            margin-bottom: 40px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid #313244;
+            background: rgba(24, 24, 37, 0.8);
+        }
+
+        .footer-content {
+            color: #6c7293;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            color: #a6adc8;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #313244;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #a855f7;
+            border-color: #a855f7;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .pain-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .mock-sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            .mock-graph {
+                position: relative;
+                left: 0;
+                min-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <div class="logo-icon">O</div>
+                Obsidian Starter Kit
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Free Obsidian Starter Kit</h1>
+                <p class="hero-subtitle">
+                    After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners, 
+                    I built the perfect solution to skip the overwhelm and start building your second brain today.
+                </p>
+                <a href="#download" class="cta-button">
+                    <span>⬇</span>
+                    Download Free Starter Kit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshot Section -->
+    <section class="screenshot-section">
+        <div class="container">
+            <div class="screenshot-container">
+                <div class="mock-screenshot">
+                    <div class="mock-titlebar">
+                        <div class="mock-dots">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <div class="mock-title">Graph view - Obsidian Starter Kit - Obsidian v1.8.10</div>
+                    </div>
+                    
+                    <div class="mock-sidebar">
+                        <div class="mock-folder">📁 00 Home</div>
+                        <div class="mock-folder">📚 10 Learning and Teaching</div>
+                        <div class="mock-folder">💼 20 Work and Career</div>
+                        <div class="mock-folder">🎯 30 Project and Hobby</div>
+                        <div class="mock-folder">🎨 40 Content and Creativity</div>
+                        <div class="mock-folder">📦 50 Reserved 1</div>
+                        <div class="mock-folder">📦 60 Reserved 2</div>
+                        <div class="mock-folder">📦 70 Reserved 3</div>
+                        <div class="mock-folder">📚 80 Knowledge Library</div>
+                        <div class="mock-folder">🗃️ 90 Archive</div>
+                    </div>
+                    
+                    <div class="mock-graph">
+                        <div class="graph-nodes">
+                            <div class="node">MOC Home</div>
+                            <div class="node">Hard Skills</div>
+                            <div class="node">Insurance</div>
+                            <div class="node">Soft Skills</div>
+                            <div class="node">Credits</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="pain-points">
+        <div class="container">
+            <h2 class="section-title">6 Beginner Pain Points in Obsidian</h2>
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-number">1</div>
+                    <h3 class="pain-title">Markdown Overload</h3>
+                    <p class="pain-description">Many new users feel overwhelmed by syntax. It's not hard, but it takes a bit of guided practice.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-number">2</div>
+                    <h3 class="pain-title">Attachment Chaos</h3>
+                    <p class="pain-description">By default, Obsidian dumps images in the root folder. The result? A messy vault where notes are buried under image files.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-number">3</div>
+                    <h3 class="pain-title">Plugin Paralysis</h3>
+                    <p class="pain-description">Obsidian's strength is its plugin ecosystem, but the sheer number can paralyze beginners. Everyone's vault starts to look like a developer's playground instead of a knowledge base.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-number">4</div>
+                    <h3 class="pain-title">Syncing Confusion</h3>
+                    <p class="pain-description">I've lost count of how many times I've been asked: "How can I sync Obsidian for free?" The answer is simple, but often overlooked.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-number">5</div>
+                    <h3 class="pain-title">Perfection Trap</h3>
+                    <p class="pain-description">Seeing other people's beautifully crafted vaults can be demotivating. Don't fall into the trap of building a perfect system before you even take a note.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-number">6</div>
+                    <h3 class="pain-title">Setup Fatigue</h3>
+                    <p class="pain-description">Customization is powerful, but only if you're not already exhausted before you start.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What's Included in This Kit</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Minimal Setup</h3>
+                    <p class="feature-description">Pre-configured for immediate use</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3 class="feature-title">Clean Structure</h3>
+                    <p class="feature-description">Organized folder system that scales</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3 class="feature-title">Essential Plugins</h3>
+                    <p class="feature-description">Only the must-have plugins, pre-configured</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3 class="feature-title">Basic Templates</h3>
+                    <p class="feature-description">Ready-to-use templates with instructions</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.2rem; color: #cdd6f4; font-weight: 600;">
+                    No more plugin rabbit holes or messy folders.<br>
+                    Just open the vault, follow the instructions, and start building your second brain.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Golden Rules Section -->
+    <section class="golden-rules">
+        <div class="container">
+            <h2 class="section-title">My 5 Golden Rules for Beginners</h2>
+            <div class="rules-list">
+                <div class="rule-item">
+                    <div class="rule-number">1.</div>
+                    <div class="rule-text"><strong>Start simple.</strong> Don't chase perfection. Capture your thoughts first.</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">2.</div>
+                    <div class="rule-text"><strong>Delay plugin exploration.</strong> You don't need 20 plugins to take smart notes.</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">3.</div>
+                    <div class="rule-text"><strong>Learn basic Markdown.</strong> Just the essentials. It pays off.</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">4.</div>
+                    <div class="rule-text"><strong>Use simple sync.</strong> Google Drive, Dropbox, OneDrive—pick one. Done.</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">5.</div>
+                    <div class="rule-text"><strong>Understand Obsidian's core purpose.</strong> It's not a team tool. It's <em>your second brain</em>—a space for thinking, not collaborating with team.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="download">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Start?</h2>
+                <p class="cta-subtitle">Everything you need to get started, no paywalls, no overwhelm.</p>
+                <a href="#" class="cta-button">
+                    <span>⬇</span>
+                    Download Obsidian Starter Kit
+                </a>
+                <p style="margin-top: 20px; color: #6c7293; font-size: 14px;">
+                    Just open the vault, follow the 1-page instruction note, and start taking notes!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p><strong>Shuvangkar Das</strong> - PhD in Electrical Engineering, Research Scientist</p>
+                <p>Power systems researcher, YouTuber, and content creator</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Newsletter</a>
+                    <a href="#" class="social-link">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add floating animation to hero elements
+        function addFloatingAnimation() {
+            const heroContent = document.querySelector('.hero-content');
+            if (heroContent) {
+                heroContent.style.animation = 'float 6s ease-in-out infinite';
+            }
+        }
+
+        // Initialize animations
+        window.addEventListener('load', addFloatingAnimation);
+
+        // Add parallax effect to background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.hero-background');
+            
+            parallaxElements.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+</body>
+</html>
