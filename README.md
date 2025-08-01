@@ -1,8 +1,12 @@
 
 ## **A ready-to-use Obsidian vault for beginners. No overwhelm, no setup fatigue.**
 
-After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners via my YouTube Videos, I built this [solution](https://shuvangkardas.com/obsidian-starter-kit/) to solve the  most common Obsidian pain points.  
-[Visit Official website](https://shuvangkardas.com/obsidian-starter-kit/)
+It took me 3.5 years, 6,000+ notes, and a full PhD to build what you’re about to start with.
+After guiding 1000+ students through YouTube, I created the Obsidian Starter Kit — the exact system I wish I had from day one!
+
+Capture your thoughts, connect your ideas, and finally sleep better knowing everything is in one place.
+
+For more info [visit official website](https://shuvangkardas.com/obsidian-starter-kit/)
 
 ![obsidian-starter-kit-free](./docs/assets/images/Free-Obsidian-Starter-Kit-by-Shuvangkar-Das(2).png)
 
