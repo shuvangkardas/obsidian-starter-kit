@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 Learning and Teaching/Readme Learning and Teaching.md",
+                "file": "00 Home/! MOC Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme Learning and Teaching"
+              "title": "! MOC Home"
+            }
+          },
+          {
+            "id": "c3999d39e9ad9429",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -170,21 +180,22 @@
   },
   "active": "0a7e08a2ac354fb5",
   "lastOpenFiles": [
-    "README.md",
-    "Templates/Idea Template.md",
-    "20 Work and Career/Readme Work and Career.md",
+    "00 Home/Readme Home.md",
     "10 Learning and Teaching/Readme Learning and Teaching.md",
+    "30 Project and Hobby/Readme Project and Hobby.md",
+    "40 Content and Creativity/Readme Content and Creation.md",
+    "80 Knowledge Library/Readme Knowledge Library.md",
+    "README.md",
+    "MOC Master MOC.md",
+    "20 Work and Career/Readme Work and Career.md",
+    "10 Learning and Teaching/! MOC Learning and Teaching.md",
+    "Templates/Idea Template.md",
     "80 Knowledge Library/! MOC Library.md",
     "10 Learning and Teaching/19 Misc/MOC Learning Misc.md",
-    "10 Learning and Teaching/! MOC Learning and Teaching.md",
     "20 Work and Career/! MOC Work and Career.md",
     "20 Work and Career/23-27 Reserved/MOC Work Reserved Folder.md",
-    "40 Content and Creativity/Readme Content and Creation.md",
     "20 Work and Career/22 Professional Documents/MOC Professional Documents.md",
-    "MOC Master MOC.md",
     "20 Work and Career/29 Archive/MOC Archived Projects.md",
-    "30 Project and Hobby/Readme Project and Hobby.md",
-    "00 Home/Readme Home.md",
     "40 Content and Creativity/! MOC Content.md",
     "40 Content and Creativity/43-49 Reserved/MOC Reserved Folders (43-49).md",
     "40 Content and Creativity/42 Blog and Video/MOC Blog.md",
@@ -195,7 +206,6 @@
     "80 Knowledge Library/82 Paper and Article Notes/MOC Paper and Article Notes.md",
     "80 Knowledge Library/81 Book Notes/MOC Books.md",
     "30 Project and Hobby/31 Pet Projects/MOC Pet Projects.md",
-    "10 Learning and Teaching/13 Skills/MOC Soft Skills.md",
     "Pasted image 20250720140828.png",
     "80 Knowledge Library/Untitled",
     "80 Knowledge Library/84 People and Thinkers",

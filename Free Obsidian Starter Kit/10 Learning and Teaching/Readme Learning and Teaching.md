@@ -1,18 +1,57 @@
-We learn every day. Always! Not only we learn, we also teach at some point. It doesn't necessary to be a teacher to teach. We teach our friends, colleagues. 
+## 🎓 10 Learning and Teaching – Track Your Growth
 
-The purpose of this note is to keep track of all of our direct learning and teaching stuffs. 
+We’re always learning. Whether you're enrolled in a course or explaining something to a friend - you're learning and teaching every day.
 
-## 11 Academic Studies 
-- I use this folder to keep track of my all academic studies. I used to make class notes here during my PhD. 
-- The purpose of this folder is to keep all notes related to academic notes here. So that if you study something during first year, you can utilize that in last year. You might be tempted to create folder here. But my suggestions would not do not create so many folders. you will loose the essence of connections. Folder creates mental barriers. 
-- I have a blog about it, read it to get the clarity.  [Why Did I Deleted So Many Folders From my Research Folders in Obsidian and the Lesson I learned]()
+This folder is your **personal growth log**. Use it to track:
+- Academic learning
+- Soft/hard skill development
+- Any informal teaching or knowledge-sharing moments
 
-### Skills
-- We develop so many skill every day. Cooking.. goes into skill, fishing, goes into skill, learning a new software, goes into skill, learning a new language, goes into skill
-- Now real question is, you have sufficient stamina, you could, make folders for each skill. Because PowerPoint skill doesnt have anything to do with Fishing. I do not mind creating folder for each skill here. 
-- If you want better categorization and traceability, you could make list all of you skill into [[MOC Soft Skills]] and [[MOC Hard Skills]]
 
-### 19 Misc.
-- This is the folder, if you are not sure where to put something. Rest it here. You could decide later. Or even you can put under the 10 Learning and Teaching directory
+🎥 [Watch: How My Second Brain Works](https://youtu.be/XFkdIgvAMrg) – Learn how I manage lifelong learning using Obsidian.
 
+---
+
+## 📘 `11 Academic Studies`
+
+- A space for your formal academic journey — lectures, course notes, assignments, research.
+- I created and refined all my PhD class notes here. Everything stays connected across semesters.
+- **Avoid overusing folders.** They create silos and mental friction. Let links do the organizing.
+    
+
+✍️ [Read: Why I Deleted So Many Folders from My Research Vault](https://blog.shuvangkar.com/) – A must-read if you're over-organizing.
+
+> 🧠 Your first-year notes might solve a final-year problem - only if they're connected.
+
+---
+
+## 🛠️ `13 Skills`
+
+Track personal and professional skill-building:
+- Cooking, coding, fishing, design, writing — everything counts.
+- I don’t mind folders for distinct skills like `PowerPoint` vs `Fishing`, since context differs.
+
+For better clarity:
+- Create a [[MOC Hard Skills]] for technical skills.
+- Create a [[MOC Soft Skills]] for interpersonal, language, or creative ones.
+
+
+🎥 [Watch: Zettelkasten for Learning](https://youtu.be/zpkXkS-npvQ) – Great for capturing and linking skill-building notes.
+
+---
+
+## 📦 `19 Misc`
+
+- Not sure where a note fits? Drop it here temporarily.
+- Review it later and move if needed.
+- It still contributes to your learning vault.
+
+
+---
+
+## 🧭 Pro Tips
+
+- Every folder should ideally have a `MOC` (Map of Content) to keep navigation fluid.
+- Use tags like `#learning`, `#teaching`, or `#skills` for traceability across the vault.
+- Teaching notes? Record them here - tutorials, slides, workshops, even your own explanations to others.
 

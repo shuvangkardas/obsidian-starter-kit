@@ -4,7 +4,7 @@
 After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners via my YouTube Videos, I built this [solution](https://shuvangkardas.com/obsidian-starter-kit/) to solve the  most common Obsidian pain points.  
 [Visit Official website](https://shuvangkardas.com/obsidian-starter-kit/)
 
-![obsidian-starter-kit-free](./docs/assets/images/obsidian-starter-kit-free.png)
+![obsidian-starter-kit-free](./docs/assets/images/Free-Obsidian-Starter-Kit-by-Shuvangkar-Das(2).png)
 
 ## Download
 
@@ -12,12 +12,11 @@ After creating 6,000+ notes, completing my PhD, and helping hundreds of beginner
 **[🔗 Stable Version](https://shuvangkardas.com/obsidian-starter-kit/)** - Tested and reliable (No stable version released yet)
 
 
-## Quick Start
-
-1. Download and extract
-2. Open the vault in Obsidian ([Instructions](https://blog.shuvangkardas.com/free-obsidian-starter-kit))
-3. Follow the 1-page instruction note inside vault
-4. Start taking notes!
+## 🚀 Quick Start
+1. Download and extract the starter kit ZIP file.
+2. Open the vault in Obsidian – Follow these simple steps if you're unsure how.
+3. Read the README inside the vault. It’s your guide to understanding and using the template effectively.
+4. Start capturing and connecting your ideas – the system is ready when you are!
 
 ## What's Included
 - Clean folder structure

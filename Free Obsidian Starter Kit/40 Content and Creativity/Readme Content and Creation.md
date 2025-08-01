@@ -1,13 +1,38 @@
+## 📢 40 Content and Creativity – Share What You Know
 
-As you are aware at this point that I make YouTube video on this topic. Not only that, I also publish more blogs than YouTube video in wide range of topic. I also write facebook post, Reddit post, LinkedIn post etc. 
+This folder is your **public-facing creativity zone**.
+If you're publishing anything - YouTube videos, blog posts, newsletters, LinkedIn articles - this is where it should live. Think of it as the **"show yourself to the world"** zone.
 
+🎥 [Watch: My System for Managing Creative Work](https://youtu.be/z_YQXeoS-nY?t=215) – How I balance content creation with full-time work using Obsidian.
 
-All of these “Show yourself” stuff I do inside “Content” folder. Everything inside “Content” folder, I consider it as public. Therefore, whatever you publish, put inside content folder. 
+---
+## ✍️ Why Use a Separate `Content` Folder?
+Your thoughts evolve privately, but once you polish them for the world, they deserve a spotlight.
+- I treat **everything inside `Content` as public** - these are the ideas I’m okay sharing with the world.
+- This folder acts as a **bridge** between your private vault and your digital presence.
+- Instead of copying, I **refactor existing notes** from other folders here to ensure consistency, clarity, and polish.
 
-Folder are like wall. Content folder is a well between your other folders. If you you want to publish something, you need to fine tune it before publishing. Do not copy notes from other folder. Try to create a new note inside content folder and fine tune your other folder notes as publishableable inside this folder. This way you can keep track of what is going outside. 
+---
+## 📂 Structure and Workflow
+You can organize the `Content` folder based on your publishing platforms:
+### ✅ My setup includes:
+- `42 Blog and Video`
+    - Blog posts, YouTube scripts, newsletter content.
+- `41 Social Media`
+    - LinkedIn, Twitter, Facebook, Reddit drafts.
+- `Website` (Optional)
+    - Includes:
+        - `Blog`: Personal tech/thought articles
+        - `Newsletter`: Weekly/bi-weekly dispatches
+        - `Portfolio`: Resume and project highlights
+        - `Creator Homepage`: One-pager for audience engagement
 
-For example, right now, I am making this “Obsidian Starter Kit documentation inside “Content” folder. 
+🎥 [Watch: How I Manage My Website, Blog, and CV Inside Obsidian](https://youtu.be/rw-b4orz6bu)
 
-Now, depending on your publication type, you could create sub folders according to your requirement. 
+---
+## 🧭 Publishing Tips
+- Always create new notes **directly inside this folder** when preparing something to share.
+- Link back to original notes using `[[Note Title]]` rather than copying.
+- Use `#published`, `#draft`, or `#todo` tags to track content status.
 
-In my Content folder, I have Websites subfolder, under which I have 4 other subfolders for my blog, newsletter, professional portfolio website, creator homepage. 
+> Example: This very `Obsidian Starter Kit` documentation was drafted here before sharing publicly.
