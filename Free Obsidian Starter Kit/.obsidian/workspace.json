@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3fc235ee4dcf4c6",
+            "id": "0a7e08a2ac354fb5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "10 Learning and Teaching/Readme Learning and Teaching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Readme Learning and Teaching"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "e01af500b709eb18",
@@ -164,13 +168,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3fc235ee4dcf4c6",
+  "active": "0a7e08a2ac354fb5",
   "lastOpenFiles": [
-    "90 Archive/Test Note.md",
-    "Pasted image 20250720140828.png",
-    "00 Home/06 Assets & Liabilities/Credits Cards.md",
-    "00 Home/06 Assets & Liabilities/Insurance.md",
+    "README.md",
+    "Templates/Idea Template.md",
+    "20 Work and Career/Readme Work and Career.md",
+    "10 Learning and Teaching/Readme Learning and Teaching.md",
+    "80 Knowledge Library/! MOC Library.md",
+    "10 Learning and Teaching/19 Misc/MOC Learning Misc.md",
+    "10 Learning and Teaching/! MOC Learning and Teaching.md",
+    "20 Work and Career/! MOC Work and Career.md",
+    "20 Work and Career/23-27 Reserved/MOC Work Reserved Folder.md",
+    "40 Content and Creativity/Readme Content and Creation.md",
+    "20 Work and Career/22 Professional Documents/MOC Professional Documents.md",
+    "MOC Master MOC.md",
+    "20 Work and Career/29 Archive/MOC Archived Projects.md",
+    "30 Project and Hobby/Readme Project and Hobby.md",
+    "00 Home/Readme Home.md",
+    "40 Content and Creativity/! MOC Content.md",
+    "40 Content and Creativity/43-49 Reserved/MOC Reserved Folders (43-49).md",
+    "40 Content and Creativity/42 Blog and Video/MOC Blog.md",
+    "40 Content and Creativity/41 Social Media/MOC FB.md",
+    "30 Project and Hobby/32 Hobbies/MOC Hobby.md",
+    "80 Knowledge Library/84 People and Thinkers/MOC People and Thinkers.md",
+    "80 Knowledge Library/83 Podcast Video and Seminar/MOC Podcast, Video and Seminar.md",
+    "80 Knowledge Library/82 Paper and Article Notes/MOC Paper and Article Notes.md",
+    "80 Knowledge Library/81 Book Notes/MOC Books.md",
+    "30 Project and Hobby/31 Pet Projects/MOC Pet Projects.md",
     "10 Learning and Teaching/13 Skills/MOC Soft Skills.md",
+    "Pasted image 20250720140828.png",
     "80 Knowledge Library/Untitled",
     "80 Knowledge Library/84 People and Thinkers",
     "80 Knowledge Library/83 Podcast Video and Seminar",
@@ -180,12 +206,6 @@
     "40 Content and Creativity/42 Blog and Video",
     "40 Content and Creativity/41 Social Media",
     "30 Project and Hobby/32 Hobbies",
-    "30 Project and Hobby/31 Pet Projects",
-    "10 Learning and Teaching/13 Skills/MOC Hard Skills.md",
-    "00 Home/MOC Home.md",
-    "00 Home/08 Reserved/Untitled.md",
-    "Untitled.md",
-    "Template.md",
-    "00 Home/09 Journal/Untitled.md"
+    "30 Project and Hobby/31 Pet Projects"
   ]
 }

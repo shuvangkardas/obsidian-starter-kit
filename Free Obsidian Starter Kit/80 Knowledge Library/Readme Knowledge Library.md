@@ -1,0 +1,2 @@
+
+We consumes lot of information each day from books, newspapers, YouTube videos, blogs, social medias. This happens to all of us that, we saw something useful, or read something useful. Months later, we look for that. 
