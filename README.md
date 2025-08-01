@@ -19,7 +19,7 @@ For more info [visit official website](https://shuvangkardas.com/obsidian-starte
 ## 🚀 Quick Start
 1. Download and extract the starter kit ZIP file.
 2. Open the vault in Obsidian – Follow these simple steps if you're unsure how.
-3. Read the README inside the vault. It’s your guide to understanding and using the template effectively.
+3. Read the [README](Free Obsidian Starter Kit/README.md) inside the vault. It’s your guide to understanding and using the template effectively.
 4. Start capturing and connecting your ideas – the system is ready when you are!
 
 ## What's Included
