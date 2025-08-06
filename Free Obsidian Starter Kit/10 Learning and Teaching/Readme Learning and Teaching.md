@@ -12,7 +12,7 @@ This folder is your **personal growth log**. Use it to track:
 
 ---
 
-## 📘 `11 Academic Studies`
+## 📘 `11 Study`
 
 - A space for your formal academic journey — lectures, course notes, assignments, research.
 - I created and refined all my PhD class notes here. Everything stays connected across semesters.
