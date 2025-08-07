@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master MOC.md",
+                "file": "10 Learning and Teaching/Readme Learning and Teaching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Master MOC"
+              "title": "Readme Learning and Teaching"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +182,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72109d65955607ab",
+  "active": "0a7e08a2ac354fb5",
   "lastOpenFiles": [
+    "10 Learning and Teaching/Readme Learning and Teaching.md",
     "Master MOC.md",
     "00 Home/! MOC Home.md",
     "00 Home/05 Digital Life/MOC Digital Accounts.md",
@@ -192,7 +192,6 @@
     "00 Home/01 About Me/Bio.md",
     "README.md",
     "00 Home/Readme Home.md",
-    "10 Learning and Teaching/Readme Learning and Teaching.md",
     "30 Project and Hobby/Readme Project and Hobby.md",
     "40 Content and Creativity/Readme Content and Creation.md",
     "80 Knowledge Library/Readme Knowledge Library.md",
