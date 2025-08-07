@@ -13,25 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Master MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Master MOC"
             }
           },
           {
-            "id": "c3999d39e9ad9429",
+            "id": "72109d65955607ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Master MOC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Master MOC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,16 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a7e08a2ac354fb5",
+  "active": "72109d65955607ab",
   "lastOpenFiles": [
+    "Master MOC.md",
     "00 Home/! MOC Home.md",
+    "00 Home/05 Digital Life/MOC Digital Accounts.md",
+    "00 Home/02 Health/MOC Health.md",
+    "00 Home/01 About Me/Bio.md",
+    "README.md",
     "00 Home/Readme Home.md",
     "10 Learning and Teaching/Readme Learning and Teaching.md",
     "30 Project and Hobby/Readme Project and Hobby.md",
     "40 Content and Creativity/Readme Content and Creation.md",
     "80 Knowledge Library/Readme Knowledge Library.md",
-    "README.md",
-    "MOC Master MOC.md",
     "20 Work and Career/Readme Work and Career.md",
     "10 Learning and Teaching/! MOC Learning and Teaching.md",
     "Templates/Idea Template.md",
@@ -203,9 +211,6 @@
     "40 Content and Creativity/41 Social Media/MOC FB.md",
     "30 Project and Hobby/32 Hobbies/MOC Hobby.md",
     "80 Knowledge Library/84 People and Thinkers/MOC People and Thinkers.md",
-    "80 Knowledge Library/83 Podcast Video and Seminar/MOC Podcast, Video and Seminar.md",
-    "80 Knowledge Library/82 Paper and Article Notes/MOC Paper and Article Notes.md",
-    "80 Knowledge Library/81 Book Notes/MOC Books.md",
     "Pasted image 20250720140828.png",
     "80 Knowledge Library/Untitled",
     "80 Knowledge Library/84 People and Thinkers",
