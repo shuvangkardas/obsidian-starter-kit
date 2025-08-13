@@ -1,12 +1,11 @@
 ---
-Title: {{title}}
-Author: Shuvangkar Das
-Date: {{date:YYYY-MM-DD}}
-Type: Log-Note
-Alias: 
+title: {{title}}
+author: Shuvangkar Das
+date: {{date:YYYY-MM-DD}}, {{time:HH:mm}}
+tags: [log]
+aliases: []
 ---
 ___
-
 
 
 

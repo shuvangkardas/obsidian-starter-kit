@@ -7,15 +7,11 @@ aliases: []
 ____
 ## 🚀Quick Notes
 ---
-
+- [[Idea of {{title}}]]
+- [[Tasks of {{title}}]]
 
 ## 📝 All Notes
 ---
-[[Permanent Note Template]]
-[[Idea Template]]
-[[Log Template]]
-[[Private Note Template]]
-[[Task Template]]
 
 
 
@@ -24,3 +20,4 @@ ____
 ## 📒Misc.
 ---
 >Not sure, keep here
+
