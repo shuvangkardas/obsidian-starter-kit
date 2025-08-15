@@ -1,3 +1,4 @@
+> ⭐ **Found this helpful? Star the repo and share with others!**
 
 ## **A ready-to-use Obsidian vault for beginners. No overwhelm, no setup fatigue.**
 
