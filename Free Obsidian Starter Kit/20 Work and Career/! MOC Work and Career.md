@@ -13,7 +13,7 @@ ____
 
 ## 📝 All Notes
 ---
-[[MOC Job Projects]]
+[[MOC Job Project 1]]
 [[MOC Professional Documents]]
 [[MOC CV]]
 [[MOC LinkedIn Bio]]

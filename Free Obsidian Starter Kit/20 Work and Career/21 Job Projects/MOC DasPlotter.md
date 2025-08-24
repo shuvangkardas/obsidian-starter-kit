@@ -1,6 +1,6 @@
 ---
-title: MOC Finance
-date: 2025-08-19, 17:59
+title: MOC DasPlotter
+date: 2025-08-19, 08:15
 tags:
   - moc
 aliases: []
@@ -9,8 +9,8 @@ aliases: []
 ____
 ## 🚀Quick Notes
 ---
-- [[Idea of MOC Finance]]
-- [[Tasks of MOC Finance]]
+- [[Idea of MOC DasPlotter]]
+- [[Tasks of MOC DasPlotter]]
 
 ## 📝 All Notes
 ---

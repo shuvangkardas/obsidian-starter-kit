@@ -13,5 +13,5 @@ My skills include firmware development, PCB design, circuit design, and hardware
 
 
 ### YT Bio
-I'm Shuvangkar Das, Ph.D., a researcher scientist and hobbyist YouTuber. I work on a wide variety of things. So, managing knowledge and life efficiently is one of my main concerns. In this channel, I tell stories about how to be a quick learner, better problem solver, and maintain a balanced life.
+I'm Shuvangkar Das, Ph.D., a researcher and hobbyist YouTuber. I work on a wide variety of things. So, managing knowledge and life efficiently is one of my main concerns. In this channel, I tell stories about how to be a quick learner, better problem solver, and maintain a balanced life.
 

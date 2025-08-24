@@ -18,7 +18,7 @@ ___
 - filter and update image URL
 
 #### Tasks
-- [x] #task  Add WordPress support to daspress 📅 2025-08-13 ✅ 2025-08-15
+- [ ] #task  Add WordPress support to daspress 📅 2025-08-20 ✅ 2025-08-19
 - [ ] #task Work on image compression for daspress 📅 2025-08-14 
 - [ ] #task Assign [[Log Swati|@Swati]] for SEO feature 📅 2025-08-15 
 
