@@ -1,3 +1,5 @@
+
+
 ## 🏡 00 Home - Your Most Personal Hub
 
 Welcome to the `00 Home` section — the **heart of your private life** inside Obsidian.
@@ -10,8 +12,8 @@ This space is designed for highly personal, sensitive, and foundational informat
 ## 📁 Folder Overview
 
 ### `01 About Me`
-- Quick-access info like your name, address, and frequently used personal details.
-- Centralize your public bios in the `[[Bio]]` note — useful for forms, applications, or online profiles, introduce yourself, job application, Linkedin, website etc.
+- Quick-access info like your name, address, and frequently used personal details, useful for forms, applications, or online profiles.
+- Centralize your public bios in the `[[Bio]]` note — useful introduce yourself, job application, Linkedin, website etc.
 - Bio note helps you maintain consistency across platforms.
 
 

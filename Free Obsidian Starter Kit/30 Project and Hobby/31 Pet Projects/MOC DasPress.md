@@ -15,7 +15,7 @@ ____
 ## 📝 All Notes
 ---
 
-
+![[Pasted image 20250826071711.png]]
 
 
 
