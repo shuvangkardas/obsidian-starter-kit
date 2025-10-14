@@ -9,7 +9,8 @@ ___
 
 
 ### 2025-08-25
-- [ ] #task/urgent Doctor visit 📅 2025-08-29 🔁 every month 
+- [ ] #task/urgent Doctor visit 🔁 every month 📅 2025-09-29
+- [x] #task/urgent Doctor visit 🔁 every month 📅 2025-08-29 ✅ 2025-09-14
 
 
 

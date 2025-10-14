@@ -1,0 +1,15 @@
+- Understand the business 
+	- What does company do?
+	- Do you understand product or service? - [[Circle of competence]]
+- Check financials
+	- Revenue and profit trend
+	- debt level
+	- Earning per share ([[EPS]])
+	- Return of Equity 
+- Valuation metrics
+	- PE Ratio 
+	- Price to book ratio 
+- Competitive advantage 
+- Growth potential
+- Risk factors
+- Investment goal 

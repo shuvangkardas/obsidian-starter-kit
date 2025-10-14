@@ -15,6 +15,7 @@ ____
 [[MOC Soft Skills]]
 [[MOC Hard Skills]]
 [[MOC Learning Misc]]
+[[MOC Investment]]
 
 
 

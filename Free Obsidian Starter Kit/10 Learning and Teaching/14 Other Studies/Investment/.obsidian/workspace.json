@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "9af91c2f94bfa334",
+    "type": "split",
+    "children": [
+      {
+        "id": "93ba4a0ee6bc8573",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e82dcd627ab7f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC Investment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC Investment"
+            }
+          },
+          {
+            "id": "df094adf2ea609de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index Fund Future Return.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index Fund Future Return"
+            }
+          },
+          {
+            "id": "e5acbe80550eb786",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b6c78bb434f3ef2",
+    "type": "split",
+    "children": [
+      {
+        "id": "eca0000d5a60352a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c155161cfa5148e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c1414c5aed202af8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "de0f66fd5b987151",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2d207973498cb86d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c2977a1954c6d8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e306fe02cfb3aaa3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index fund.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index fund"
+            }
+          },
+          {
+            "id": "2b60581e27e9db6d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index fund.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index fund"
+            }
+          },
+          {
+            "id": "522b248682da10df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc68c6c188da15fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index fund.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index fund"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "df094adf2ea609de",
+  "lastOpenFiles": [
+    "Index Fund Future Return.md",
+    "MOC Investment.md",
+    "Pasted image 20250907094835.png",
+    "Investment Note.pdf",
+    "Pasted image 20250830212716.png",
+    "Pasted image 20250830213003.png",
+    "Recording 20250907073415.m4a",
+    "stock.md",
+    "index fund.md",
+    "What is the investment advice for lazy people.md",
+    "Investment.md",
+    "How to buy good companies.md",
+    "How to Investment.md",
+    "Investment V2.md",
+    "Welcome.md",
+    "How to select stock.md",
+    "IPO.md",
+    "How stock price is decided.md",
+    "Why company gives away ownership.md"
+  ]
+}
